@@ -10,6 +10,30 @@
 
 	gtag('config', 'G-0BMMMPEW3Y');
 	</script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci - Photographe professionnelle",
+		  "description": "Photographe spécialisée dans les portraits, mariages et événements en Île-de-France.",
+		  "url": "https://example.com",
+		  "image": "https://example.com/assets/images/nina.webp",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "68 avenue Alsace-Lorraine",
+			"addressLocality": "Bordeaux",
+			"postalCode": "33200",
+			"addressCountry": "FR"
+		  },
+		  "telephone": "+33 5 56 67 78 89",
+		  "priceRange": "€€",
+		  "openingHours": "Mo-Fri 10:00-19:00",
+		  "sameAs": [
+			"https://www.instagram.com/ninacarducci.photo",
+			"https://www.facebook.com/ninacarducci.photo"
+		  ]
+		}
+	</script>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.min.css">
@@ -17,7 +41,24 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
+	<!-- OpenGraph Metadata -->
+	<meta property="og:title" content="Nina Carducci - Photographe professionnelle">
+	<meta property="og:description" content="Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages et événements. Découvrez son portfolio et ses services.">
+	<meta property="og:image" content="https://example.com/assets/images/nina.webp">
+	<meta property="og:url" content="https://example.com">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:site_name" content="Nina Carducci - Photographe">
+
+	<!-- Twitter Card Metadata -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle">
+	<meta name="twitter:description" content="Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages et événements. Découvrez son portfolio et ses services.">
+	<meta name="twitter:image" content="https://example.com/assets/images/nina.webp">
+	<meta name="twitter:site" content="@NinaCarducciPhoto">
+	<meta name="twitter:creator" content="@NinaCarducciPhoto">
 	<meta name="description" content="Nina Carducci, photographe professionnelle spécialisée dans les portraits, mariages et événements. Découvrez son portfolio et ses services.">
+
 	<title>Nina Carducci - Photographe professionnelle</title>
 	<script defer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
@@ -27,7 +68,7 @@
 <body>
 	<header class="top-header">
 		<h1 class="name">Nina Carducci</h1>
-		<div class="nav">   
+		<nav class="nav" role="navigation">   
 			<ul>
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
@@ -35,7 +76,7 @@
 				<li><a href="#contact">Contact</a></li>
 				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="instagram"></a></li>
 			</ul>
-		</div>
+		</nav>
 	</header>
 	<main>
 		<section id="header">
